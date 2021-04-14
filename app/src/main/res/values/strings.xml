@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Week3Task</string>
+    <string name="goodMorning_Text"><b>Good Morning!</b></string>
+    <string name="time">9:27</string>
+    <string name="tv_name"><b>Jane</b></string>
+    <string name="tv_san_francisco"><b>San francisco, ca</b></string>
+    <string name="tv_follow_me"><b>follow jane</b></string>
+    <string name="message">message</string>
+    <string name="tv_searchText">Search</string>
+    <string name="tv_seemore">see more</string>
+    <string name="lightMode">light</string>
+    <string name="darkMode">Dark</string>
+</resources>
