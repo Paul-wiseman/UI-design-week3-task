@@ -6,7 +6,7 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="background">#06144F</color>
+    <color name="background">#FF000000</color>
     <color name="searchBarColor">#f4f1f1</color>
     <color name="red">#D82828</color>
     <color name="textColor">#E4E4E4</color>

@@ -2,4 +2,37 @@
 <resources>
     <dimen name="grid_elementSize">107dp</dimen>
     <dimen name="grid_elementMargin">6dp</dimen>
+
+    <!--theme switch button dimension-->
+    <dimen name="switch_width">50dp</dimen>
+    <dimen name="switch_height">35dp</dimen>
+
+    <!--Goodmorning textView dimension-->
+    <dimen name="goodmorning_width">155dp</dimen>
+    <dimen name="goodmorning_height">60dp</dimen>
+    <dimen name="goodmorning_padding">5dp</dimen>
+
+    <!--boxes dimension-->
+    <dimen name="boxing_hight">57dp</dimen>
+    <dimen name="boxing_width">53dp</dimen>
+
+    <!--ImageButton heart image dimension-->
+    <dimen name="heart_hight">41dp</dimen>
+    <dimen name="heart_width">46dp</dimen>
+
+    <!--Search view -->
+    <dimen name="searchView_width">343dp</dimen>
+    <dimen name="searchView_hight">54dp</dimen>
+    <dimen name="searchView_marginStart">54dp</dimen>
+
+    <dimen name="searchView_marginEnd">16dp</dimen>
+
+    <!--ScrollView dimensions -->
+    <dimen name="scrollView_width">377dp</dimen>
+    <dimen name="scrollView_hight">487dp</dimen>
+    <dimen name="scrollView_marginStart">16dp</dimen>
+    <dimen name="scrollView_marginEnd">16dp</dimen>
+    <dimen name="scrollView_marginBottom">20dp</dimen>
+
+
 </resources>

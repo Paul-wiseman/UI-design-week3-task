@@ -7,25 +7,12 @@
     android:layout_height="match_parent"
     android:background="@color/background"
     tools:context=".MainActivity">
-<!--    <ImageButton-->
-<!--        android:id="@+id/btnSun"-->
-<!--        android:layout_width="50dp"-->
-<!--        android:layout_height="35dp"-->
-<!--        android:background="@color/background"-->
-<!--        android:backgroundTint="@color/background"-->
-<!--        android:backgroundTintMode="src_in"-->
-<!--        android:src="@drawable/ic_baseline_wb_sunny_24"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/tv_goodMorning"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.029"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.166" />-->
-<!--Switch button to toogle between the day time and night-->
+
     <ImageButton
         android:id="@+id/btnMode"
-        android:layout_width="50dp"
-        android:layout_height="35dp"
+        style="@style/ButtonImage"
+        android:layout_width="@dimen/switch_width"
+        android:layout_height="@dimen/switch_width"
         android:background="@color/background"
         android:backgroundTint="@color/background"
         android:backgroundTintMode="src_in"
@@ -38,12 +25,12 @@
 
     <TextView
         android:id="@+id/tv_goodMorning"
-        android:layout_width="155dp"
-        android:layout_height="60dp"
+        android:layout_width="@dimen/goodmorning_width"
+        android:layout_height="@dimen/goodmorning_height"
         android:layout_marginStart="7dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/montserrat"
-        android:padding="5dp"
+        android:padding="@dimen/goodmorning_padding"
         android:text="@string/goodMorning_Text"
         android:textColor="@color/textColor"
         android:textSize="18sp"
@@ -57,8 +44,8 @@
     <!--the four square boxes-->
     <ImageButton
         android:id="@+id/switchButton"
-        android:layout_width="53dp"
-        android:layout_height="57dp"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/boxing_hight"
         android:backgroundTint="@color/background"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="@id/heartBGB"
@@ -91,8 +78,8 @@
 <!--Search view -->
     <SearchView
         android:id="@+id/searchview"
-        android:layout_width="343dp"
-        android:layout_height="54dp"
+        android:layout_width="@dimen/searchView_width"
+        android:layout_height="@dimen/searchView_hight"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
@@ -152,8 +139,8 @@
 
     <ScrollView
         android:id="@+id/scrollView3"
-        android:layout_width="381dp"
-        android:layout_height="543dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="20dp"
@@ -170,6 +157,7 @@
             android:layout_height="wrap_content"
             android:background="@color/background"
             tools:context=".MainActivity">
+
 
 
             <ImageView
@@ -296,7 +284,6 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="16dp"
                 android:clickable="true"
                 android:columnCount="3"
                 android:orientation="horizontal"
